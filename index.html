@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="main" onkeypress="keypress($event)">
+        <div class="center">
+            <div class="title">
+                Blue Copper x Stock X Drink Tracker
+            </div>
+            <div class="counter-container">
+                <button class="counter-title" onclick="clicked('drip')">DRIP</button>
+                <div class="counter" id="drip">0</div>
+            </div>
+            <div class="counter-container">
+                <button class="counter-title" onclick="clicked('espresso')">ESPRESSO</button>
+                <div class="counter" id="espresso">0</div>
+            </div>
+            <div class="counter-container">
+                <button class="counter-title" onclick="clicked('cappuccino')">CAPPUCCINO</button>
+                <div class="counter" id="cappuccino">0</div>
+            </div>
+            <div class="counter-container">
+                <button class="counter-title" onclick="clicked('flat-white')">FLAT WHITE</button>
+                <div class="counter" id="flat-white">0</div>
+            </div>
+            <div class="counter-container">
+                <button class="counter-title" onclick="clicked('americano')">AMERICANO</button>
+                <div class="counter" id="americano">0</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
